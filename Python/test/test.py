@@ -43,17 +43,17 @@ class Exercise(unittest.TestCase):
         self.basics.click_element(Selectors.add_to_cart_item_2)
         self.basics.click_element(Selectors.add_to_cart_item_3)
 
-        # navigate to the cart
+        # navigate to the shopping cart
         self.basics.click_element(Selectors.shopping_cart)
 
         # checkout your order
-        self.basics.click_element(Selectors.checkout_order)
+        self.basics.click_element(Selectors.checkout_order_button)
 
         # fill the data (first, last name and zip code)
         self.fill_in_address(first_name="Monika", last_name="Umyka", postal_code="11-100")
 
         # click continue
-        self.basics.click_element(Selectors.click_continue)
+        self.basics.click_element(Selectors.continue_button)
 
         # calculate the tax value in the code
         total_price = self.basics.price(Selectors.summary_total)
