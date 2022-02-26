@@ -2,7 +2,7 @@ class Selectors:
     username_textfield = "//input[@id='user-name']"
     username_passwordfield = "//input[@id='password']"
     login_button = "//input[@id='login-button']"
-    sort_active_option = "//select[@class='product_sort_container']/option[text()='Price (high to low)']"
+    sort_price_high_to_low = "//select[@class='product_sort_container']/option[text()='Price (high to low)']"
     add_to_cart_item_1 = "//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']"
     add_to_cart_item_2 = "// button[@id='add-to-cart-sauce-labs-onesie']"
     add_to_cart_item_3 = "//button[@id='add-to-cart-sauce-labs-bike-light']"

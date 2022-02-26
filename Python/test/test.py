@@ -36,7 +36,7 @@ class Exercise(unittest.TestCase):
         self.log_in_with_standard_user_account()
 
         # change sort order from high to low price
-        self.basics.click_element(Selectors.sort_active_option)
+        self.basics.click_element(Selectors.sort_price_high_to_low)
 
         # add any 3 products to the cart
         self.basics.click_element(Selectors.add_to_cart_item_1)
